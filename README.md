@@ -41,7 +41,7 @@ jar file can be located inside target folder post build.
 
 **How to test after running above execution command**
 ````
-nc localhost 9191<br>
+nc localhost 9191
 PUT <key_name> <value>
 
 nc localhost 9191
