@@ -52,3 +52,8 @@ DEL <key_name>
 
 nc localhost 9191
 GET <key_name>
+
+nc localhost 9191
+BATCH 2
+<key_name> <value>
+<key_name> <value>
