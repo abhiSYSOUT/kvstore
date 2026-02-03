@@ -13,7 +13,7 @@ public class MemTable {
 
     public void put(Record record) {
         this.map.put(record.getKey(), record);
-        this.sizeBytes += record.getKey().hashCode() + ( record.getValue() == null ? 0 : record.getValue().hashCode());
+        this.sizeBytes += record.getKey().length() + ( record.getValue() == null ? 0 : record.getValue().length());
     }
 
     public Record get(String key) {
