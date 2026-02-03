@@ -41,19 +41,19 @@ jar file can be located inside target folder post build.
 
 **How to test after running above execution command**
 
-nc localhost 9191
-PUT <key_name> <value>
+nc localhost 9191<br>
+PUT <key_name> <value><br>
 
-nc localhost 9191
-GET <key_name>
+nc localhost 9191<br>
+GET <key_name><br>
 
-nc localhost 9191
-DEL <key_name>
+nc localhost 9191<br>
+DEL <key_name><br>
 
-nc localhost 9191
-GET <key_name>
+nc localhost 9191<br>
+GET <key_name><br>
 
-nc localhost 9191
-BATCH 2
-<key_name> <value>
-<key_name> <value>
+nc localhost 9191<br>
+BATCH 2<br>
+<key_name> <value><br>
+<key_name> <value><br>
