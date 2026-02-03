@@ -10,4 +10,9 @@
 
     <!-- Add dependencies, properties, build plugins, etc. here later -->
 
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
 </project>
